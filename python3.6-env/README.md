@@ -19,3 +19,4 @@
 - requests[socks]
 - celery
 - redis
+- PySocks
