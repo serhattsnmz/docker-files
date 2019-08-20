@@ -1,5 +1,11 @@
 FROM python:3.6-alpine
 
+# Set Timezone
+RUN apk add tzdata \
+  && cp /usr/share/zoneinfo/Asia/Istanbul /etc/localtime \
+  && echo "Asia/Istanbul" > /etc/timezone \
+  && apk del tzdata
+
 # Install psycopg2
 
 RUN apk update \
