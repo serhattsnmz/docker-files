@@ -9,3 +9,4 @@ requests[socks]
 https://github.com/celery/celery/zipball/master#egg=celery
 redis
 PySocks
+pytz
