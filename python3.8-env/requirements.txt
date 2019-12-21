@@ -1,0 +1,12 @@
+peewee-validates
+peewee==3.7.1
+Flask
+flask-restful
+psycopg2
+beautifulsoup4
+tldextract
+requests[socks]
+https://github.com/celery/celery/zipball/master#egg=celery
+redis
+PySocks
+pytz
