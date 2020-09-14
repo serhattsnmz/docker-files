@@ -6,7 +6,7 @@ psycopg2
 beautifulsoup4
 tldextract
 requests[socks]
-https://github.com/celery/celery/zipball/master#egg=celery
+celery==4.4.7
 redis
 PySocks
 pytz

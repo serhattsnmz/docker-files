@@ -20,3 +20,4 @@
 - celery
 - redis
 - PySocks
+- Celery Flower
