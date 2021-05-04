@@ -5,7 +5,8 @@ flask-restful
 psycopg2
 beautifulsoup4
 tldextract
-requests[socks]
+urllib3==1.25.11
+requests[socks]==2.25
 celery==4.4.7
 redis
 PySocks
