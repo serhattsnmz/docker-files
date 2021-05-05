@@ -1,11 +1,5 @@
 FROM python:3.6-alpine
 
-# Set Timezone
-# RUN apk add tzdata \
-#   && cp /usr/share/zoneinfo/Asia/Istanbul /etc/localtime \
-#   && echo "Asia/Istanbul" > /etc/timezone \
-#   && apk del tzdata
-
 # Install psycopg2
 
 RUN apk update \
@@ -22,4 +16,7 @@ RUN apk add supervisor
 
 RUN pip install --upgrade pip
 ADD requirements.txt env/requirements.txt
+
+RUN pip install peewee-validates==1.0.7
+RUN pip install peewee==3.14.4
 RUN pip install -r env/requirements.txt

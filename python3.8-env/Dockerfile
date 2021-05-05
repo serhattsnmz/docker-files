@@ -16,4 +16,7 @@ RUN apk add supervisor
 
 RUN pip install --upgrade pip
 ADD requirements.txt env/requirements.txt
+
+RUN pip install peewee-validates==1.0.7
+RUN pip install peewee==3.14.4
 RUN pip install -r env/requirements.txt
