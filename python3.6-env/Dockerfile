@@ -1,5 +1,7 @@
 FROM python:3.6-alpine
 
+ENV PYTHONUNBUFFERED=1
+
 # Install psycopg2
 
 RUN apk update \
