@@ -1,6 +1,6 @@
 # peewee-validates==1.0.7
 # peewee==3.14.4
-Flask==1.1.2
+Flask==2.3.2
 flask-restful==0.3.8
 psycopg2==2.8.6
 beautifulsoup4==4.9.3
