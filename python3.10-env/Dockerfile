@@ -1,6 +1,7 @@
 FROM python:3.10-alpine
 
 ENV PYTHONUNBUFFERED=1
+ENV FLOWER_UNAUTHENTICATED_API=True
 
 # Install psycopg2
 
